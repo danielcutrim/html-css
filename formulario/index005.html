@@ -3,41 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Checbox</title>
 </head>
+<style>
+body{
+    background-color: rgb(158, 195, 195);
+}
+
+
+</style>
 <body>
     <h1>Fomulario005</h1>
 
 <form action="cadastro.php" method="get">
+  
+    <legend>sexo</legend>
     <fieldset>
-        <legend>Sexo</legend>
-<input type="radio" name="sexo" id="isxmas" value="M"> <label for="isxmas">Masculino</label>
-<input type="radio" name="sexo" id="isxfam" value="F"> <label for="isxfam">Feminino</label>
-
-
-
-
+        <input type="radio" name="sexo" id="isxma" value="M"> <label for="isxma" nome="sexo" id="isxma">Masculino</label>
+        <input type="radio" name="sexo" id="isxfm" value="F"> <label for="isxfm" nome="sexo" id="isxfm">Feminino</label>
     </fieldset>
-
-
-
-
-
-
 <fieldset>
-<legend>Esporte favorito</legend>
-<label for="iesbas"><input type="checkbox" name="esbas" id="iesbas">Basquete <br></label>
-<label for="iesfut"><input type="checkbox" name="esfut" id="iesfut">Futebol <br></label>
-<label for="iesnat"><input type="checkbox" name="esnat" id="iesnat">Natação <br></label>
-<label for="iesten"><input type="checkbox" name="esten" id="iesten">Ténis <br></label>
+    <legend>Esporte Favorito</legend>
+    <label for="iesbas"> <input type="checkbox" name="esbas" id="iesbas">Basquete</label> <br>
+<label for="iesfut"> <input type="checkbox" name="esfut" id="iesfut">Futebol</label> <br>
+<label for="iesnat"> <input type="checkbox" name="esnat" id="iesnat">Natação</label> <br>
+<label for="iesten"> <input type="checkbox" name="esten" id="iesten">Ténis</label> <br>
 </fieldset>
-
-
-
 <input type="submit" value="Enviar">
 <input type="reset" value="Limpar">
-
-
 
 
 </body>
